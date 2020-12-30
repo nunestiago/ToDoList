@@ -12,6 +12,12 @@ filterOption.addEventListener('click', filterTodo);
 
 //Functions
 
+function addTodoKey() {
+  if (event.keyCode === 13) {
+    addTodo();
+  }
+}
+
 function addTodo(e) {
   //Prevent natural behaviour
   e.preventDefault();

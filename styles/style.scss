@@ -130,6 +130,15 @@ select {
 }
 @media screen and (max-width: 575px) {
   html {
-    font-size: 80%;
+    font-size: 55%;
+  }
+  .todo-input {
+    text-align: center;
+  }
+
+  .filter-todo {
+    min-width: auto;
+    padding: 0.5rem 0rem;
+    margin-right: 1rem;
   }
 }
